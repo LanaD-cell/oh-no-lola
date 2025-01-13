@@ -78,7 +78,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2 rem;
+    font-size: 2rem;
 }
 
 /* main */
@@ -91,4 +91,35 @@ main {
 /* footer */
 footer {
     background-color: white;
+}
+
+/* media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
