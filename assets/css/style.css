@@ -22,7 +22,11 @@ body {
 
 /* header */
 header {
-    background-color: #d99007;
+    background-color: white;
+}
+
+h1 {
+    font-family: "Courgette", sans-serif;
 }
 
 /* main */
@@ -34,5 +38,5 @@ main {
 
 /* footer */
 footer {
-    background-color: #d99007;
+    background-color: white;
 }
