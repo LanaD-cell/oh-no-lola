@@ -91,7 +91,15 @@ main {
 /* footer */
 footer {
     background-color: white;
+    align-items: end;
 }
+
+#footer-icons {
+        font-size: 110%;
+        letter-spacing: 4px;
+        list-style: none;
+    }
+
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
