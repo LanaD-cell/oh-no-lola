@@ -94,11 +94,22 @@ footer {
     align-items: end;
 }
 
-#footer-icons {
-        font-size: 110%;
+#social-sites {
+        text-align: end;
+        padding: 5px;
         letter-spacing: 4px;
-        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        margin: 5px;
+
     }
+
+#social-sites i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}    
 
 
 /* media query: tablets and larger (768px and up) */
