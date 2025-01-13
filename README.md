@@ -1,4 +1,4 @@
-![oh no Lol](assets/images/logo.png)
+![oh no Lol](assets/images/logo.webp)
 
 Welcome Illana de,
 
