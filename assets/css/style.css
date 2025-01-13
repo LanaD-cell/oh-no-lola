@@ -19,12 +19,11 @@ body {
 
 }
 
-
 /* header */
 header {
     background-color: white;
     padding: 0 1rem;
-    position: sticky;
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 4px #3a3a3a;
@@ -39,6 +38,10 @@ header a {
 }
 
 h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+em {
     font-family: "Courgette", sans-serif;
 }
 
@@ -48,7 +51,7 @@ h1 {
     list-style: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -72,6 +75,7 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 
@@ -88,6 +92,20 @@ main {
     flex: 1 0 auto;
 }
 
+
+/* hero image */
+#hero {
+    height: 800px;
+    min-width: 100%;
+    background: url(../images/new-hero.jpeg) no-repeat center center/cover;
+}
+
+#intro > h1 {
+    color: white;
+    font-size: 80px;
+    padding-left: 5px;
+}
+
 /* footer */
 footer {
     background-color: white;
@@ -95,25 +113,26 @@ footer {
 }
 
 #social-sites {
-        text-align: end;
-        padding: 5px;
-        letter-spacing: 4px;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-        margin: 5px;
+    text-align: end;
+    padding: 5px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 5px;
 
-    }
+}
 
 #social-sites i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
-}    
+}
 
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -127,7 +146,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -138,7 +157,7 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
