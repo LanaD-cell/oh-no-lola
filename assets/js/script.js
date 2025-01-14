@@ -117,3 +117,14 @@ quiz.innerHTML = `
 }
 
 showQuestion();
+
+// confetti
+const button = document.querySelector('#con-button');
+const canvas = document.querySelector('#confetti');
+
+const jsConfetti = new JSConfetti()
+
+button.addEventListener('click',() => {
+    jsConfetti.addConfetti()
+}
+);
