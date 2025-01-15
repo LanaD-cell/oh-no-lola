@@ -211,29 +211,37 @@ main {
 }
 
 /* crossword */
-
-.crossword-container {
-    margin: 0;
+#crossword-body {
     font-family: "Poppins", sans-serif;
-    color: #3a3a3a;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #f9f9f9;
+    flex-direction: column;
+    margin: 0;
     padding: 20px;
+    background-color: #f5b705;
+}
+
+.crossword-container {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #f5b705;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 #crossword-title {
     color: #3f9004;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .lola-crossword {
     display: grid;
     grid-template-columns: repeat(10, 30px);
-    /* 10 columns */
+    /* 10 columns*/
     grid-gap: 2px;
     background-color: #fff;
     padding: 10px;
