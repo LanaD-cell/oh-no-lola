@@ -35,7 +35,7 @@
         <nav>
             <ul id="menu">
                 <li><a href="" class="active">Home</a></li>
-                <li><a href="">Learn more</a></li>
+                <li><a href="">Games (coming soon)</a></li>
                 <li><a href="">Contact us!</a>
                 <li>
             </ul>
@@ -338,16 +338,34 @@
                         <div class=" row vertical-center">
                             <button id="con-button" role="button" class="btn btn-warning btn-lg">*click me* Let’s
                                 celebrate!! *click me*</button> <canvas id="confetti"></canvas>
-                            
+
                         </div>
                     </div>
                 </div>
             </section>
-        <!-- crossword -->
-            <section>
-                <div>crossword</div>
+            <!-- crossword -->
+            <div class="crossword-container">
+                <h1 id="crossword-title"><em>Oh no Lola Crossword Puzzle</em></h1>
 
-            </section>
+                <div class="lola-crossword" id="lola-crossword">
+                    <h2>Clues</h2>
+                    <h3>Across</h3>
+                    <ul>
+                        <li><strong>1.</strong> The kind duckling. (4 letters)</li>
+                        <li><strong>3.</strong> The porcupine's name. (5 letters)</li>
+                        <li><strong>5.</strong> The worm's name. (6 letters)</li>
+                        <li><strong>6.</strong> What the porcupine lost. (3 letters)</li>
+                    </ul>
+                    <h3>Down</h3>
+                    <ul>
+                        <li><strong>1.</strong> Lesson learned by Percy. (8 letters)</li>
+                        <li><strong>2.</strong> Lesson learned by the worm. (4 letters)</li>
+                        <li><strong>4.</strong> Lesson learned by the fox. (5 letters)</li>
+                    </ul>
+                </div>
+                <button onclick="checkCrossword" ()>Submit</button>
+                <p class="message" id="message"></p>
+            </div>
     </main>
 
     <!-- footer -->
