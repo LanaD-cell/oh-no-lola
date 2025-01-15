@@ -151,67 +151,48 @@ main {
 .quiz-section {
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #589dd9;
   }
   .quiz-section h2 {
-    color: #555;
+    color: white;
+    text-align: center;
   }
   .quiz-section label {
     display: block;
     margin: 10px 0;
+    text-align: justify;
   }
   .quiz-section button {
     margin-top: 10px;
+    margin-left: 139px;
     padding: 10px 15px;
-    background-color: #4CAF50;
+    background-color: #f5b705;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
   }
   .quiz-section button:hover {
-    background-color: #45a049;
+    background-color: #3f9004;
   }
   .result {
     margin-top: 10px;
     font-weight: bold;
   }
   .correct {
-    color: green;
+    color: #3f9004;
   }
   .wrong {
     color: red;
   }
 
-/* multiple choice game */
-
-#quiz {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 30px;
-    background-color: #589dd9;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
-
-}
-
-#question {
-    margin-bottom: 20px;
-}
-
-#options {
-    display: grid;
-    gap: 10px;
-    padding-bottom: 5px;
-    grid-template-columns: repeat(2 1fr);
-}
-
 /* confetti styling*/
 .con-container {
     height: 200px;
     position: relative;
+    width: 100%;
     
   }
   
@@ -219,10 +200,13 @@ main {
     margin: 0;
     position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    
   }
 
+.confetti {
+    max-height: 50px;
+    width: fit-content;
+}
 /* footer */
 footer {
     background-color: white;

@@ -148,7 +148,7 @@
                     <label><input type="radio" name="quiz1" value="3"> He was hungry.</label>
                     <button onclick="checkAnswer('quiz1', 2)">Submit</button>
                     <p class="result" id="result1"></p>
-                  </div>
+                </div>
 
                 <div class="col align-self-center">
                     <div class="card">
@@ -195,12 +195,14 @@
                 <div class="quiz-section" id="quiz2">
                     <h2>Quiz: Hope with Butter</h2>
                     <p>What did Lola tell Butter to give her hope?</p>
-                    <label><input type="radio" name="quiz2" value="1"> That she would grow wings someday and become a butterfly.</label>
+                    <label><input type="radio" name="quiz2" value="1"> That she would grow wings someday and become a
+                        butterfly.</label>
                     <label><input type="radio" name="quiz2" value="2"> That she didn’t need wings to fly.</label>
-                    <label><input type="radio" name="quiz2" value="3"> That she could borrow wings from someone else.</label>
+                    <label><input type="radio" name="quiz2" value="3"> That she could borrow wings from someone
+                        else.</label>
                     <button onclick="checkAnswer('quiz2', 1)">Submit</button>
                     <p class="result" id="result2"></p>
-                  </div>
+                </div>
 
                 <div class="col align-self-center">
                     <div class="card">
@@ -263,11 +265,15 @@
                     <h2>Quiz: Trust with the Fox</h2>
                     <p>Why did Lola decide to help the fox?</p>
                     <label><input type="radio" name="quiz3" value="1"> Because the fox begged her to help.</label>
-                    <label><input type="radio" name="quiz3" value="2"> Because she trusted her instincts and saw that the fox was helpless.</label>
+                    <label><input type="radio" name="quiz3" value="2"> Because she trusted her instincts and saw that
+                        the fox was helpless.</label>
                     <label><input type="radio" name="quiz3" value="3"> Because the fox promised her a reward.</label>
                     <button onclick="checkAnswer('quiz3', 2)">Submit</button>
                     <p class="result" id="result3"></p>
-                  </div>
+                </div>
+
+
+
 
                 <div class="col align-self-center">
                     <div class="card">
@@ -309,26 +315,39 @@
                 </div>
             </section>
 
-            <h1>You finished the story, good job!</h1>
-            <h2><em>Now that you have read Lolas story, enjoy the following games.</em></h2>
 
-
-            <div id="quiz">
-                <h2>Interactive quiz</h2>
-                <div id="question"></div>
-                <div id="options"></div>
-            </div>
-
-            <div class="con-container">
-                <div class=" row vertical-center">
-                    <button id="con-button" role="button" class="btn btn-warning btn-lg">Celebrate!!!</button>
-                    <canvas id="confetti"></canvas>
+            <!-- Congratulations with confetti -->
+            <section>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col align-self-center">
+                            <h1>You finished the story, good job!</h1>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col align-self-center">
+                            <h2><em>Now that you have read Lolas story, let’s celebrate!!!</em></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="con-container text-center">
+                    <div class="col align-self-end">
+                        <div class=" row vertical-center">
+                            <button id="con-button" role="button" class="btn btn-warning btn-lg">*click me* Let’s
+                                celebrate!! *click me*</button> <canvas id="confetti"></canvas>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- crossword -->
+            <section>
+                <div>crossword</div>
 
-
-
+            </section>
     </main>
 
     <!-- footer -->
