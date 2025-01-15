@@ -199,34 +199,26 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
 
 ### Colors
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92331821-a64d1500-f079-11ea-9ceb-a9b1b85872bd.png" alt="Color Pallette">
+  <img src="../oh-no-lola/documentation/colors.webp" alt="Color Pallette">
 </div>
 
-- I wanted the site to maintain a minimal aesthetic, colors are very basic and clean for highlighting the photos.
-- The primary color used is black. This is used to create a stark contrast with the colors of the photos, drawing the eyes and focus on them. This removes distraction, a common practice in theatre, cinemas, etc. White is often used in galleries but has more to do with lighting and reflection. On most computer screens, wherein the light is emitted from the screen, black is a better choice.
-- One accent color was chosen, the green to give a thematic connection to nature, the outdoors and travel. A little bit more than black and white is necessary to have an impact.
-- Text is primarily written in white to contrast on the bold color backgrounds of the primary and accent colors.
-- Finally, a neutral grey color is used for the footer to set it apart from the other elements on the site.
+- As this site is dedicated to education, I chose the colors accordingly.
+   - #f5b705 (Yellow): Yellow is often associated with positivity, energy, and happiness. It encourages creativity and optimism, which are essential for a learning environment.
+   - #589dd9 (Blue): Blue represents trust, calmness, and reliability. These traits are important for an educational website to foster confidence and comfort among users.
+                       Blue is known to improve focus and encourage a sense of stability, which can help users engage more deeply with the content.
+   - #3f9004 (Green): Green symbolizes growth, learning, and harmony, which are directly connected to the goals of education.
+   - #d99007 (Orange): Orange combines the energy of yellow and the stability of red, often representing enthusiasm and determination. It can be used to motivate users and 
+                         create a sense of excitement about learning.
 
 ### Images
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92332253-c7633500-f07c-11ea-8f9e-a5f03b0fe1da.png" alt="Images">
+  <img src="" alt="Images">
 </div>
 
-- The site has a heavy focus on image use, using full-size quality images for exhibition purposes.
-- As such, the images use a script while loading that blurs thumbnails and swaps in the full quality image when fully loaded.
-- In the main gallery, images are displayed in three columns responsively, so they can easily be seen on any size device.
-- Clicking on a small image will open up a full-page modal that displays the image in detail.
-- The images will automatically space themselves vertically within the column, so the gallery height is even.
-- Images will swap out on selecting another country, resetting the loading blur feature and changing URLs.
+
 
 ### Styling
-- For this project I have utilised Bootstrap 4.5 source files to override their class defaults to my liking, making customisation much easier. The entire site can be restyled with a single switch in the code.
-- The primary and secondary colors have been applied to bootstrap classes for easy use across the site.
-- Using the SASS, sharp-edged boxes have been applied by default, taking advantage of the features.
-- Responsive text sizing has also been enabled using SASS.
-- As the site has a beeline focus on use, links on each page are re-used to direct the user to either the Gallery or the Contact page no matter where they look.
-- Animations are utilised for smoothness in certain transitions, such as when a new country is selected in the gallery or on the Travel Gallery link.
+
 
 ----
 
@@ -235,28 +227,19 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
 ### All Pages
 #### Navbar
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92332641-b831b680-f07f-11ea-8ff6-d414e661b490.png" alt="Medium Header">
-  <img src="https://user-images.githubusercontent.com/44118951/92332689-f29b5380-f07f-11ea-9646-162f1b7b66c9.png" alt="Small Header">
+  <img src="" alt="Medium Header">
+  <img src="" alt="Small Header">
 </div>
 
-- The Navbar is simple, providing only three options with only two very evident the Gallery and Contact pages, to maintain the minimalist style.
-- The Logo is always highlighted, swapping position as necessary depending on device size.
-- On smaller devices, the menu becomes collapsible.
-- The mobile nav button has been placed to the right for ease of use with one hand.
-- The navbar is fixed so it is visible no matter how far you scroll.
+
 
 #### Footer
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92339926-c18b4500-f0b8-11ea-9101-c5f3e55b4b95.png" alt="Medium Footer">
-  <img src="https://user-images.githubusercontent.com/44118951/92339924-c0f2ae80-f0b8-11ea-8fb1-7f7593dd2dae.png" alt="Small Footer">
+  <img src="" alt="Medium Footer">
+  <img src="" alt="Small Footer">
 </div>
 
-- Located at the bottom of every page, mainly highlighting contact and social aspects with the photographer.
-- Made of three columns, changing shape for larger or smaller devices.
-- The first column has a newsletter signup box that uses EmailJS to make contact with the photographer.
-- A modal confirming the message has been sent and changes on success or an error is used for a response.
-- A message encouraging contact is used as the second column.
-- The third column represents social media links, highlighting 500px as the place to purchase photos.
+
 
 ### Index Page
 #### Jumbotron Image
@@ -308,23 +291,6 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
 - If the [REST Countries API](https://restcountries.eu/) is unreachable for any reason, the `markerArray.js` file is used to produce the markers.
 - In the backup function, the info window is not generated as that required the API.
 
-#### Iframe Gallery
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92342235-812fc500-f0c0-11ea-8867-806e010a7638.png" alt="Iframe Gallery">
-</div>
-
-- A fully responsive, javascript-backed iframe gallery.
-- Displays three columns no matter the device size, so all photos are nicely displayed.
-- Used as an iframe so the layout can be modified separately from the gallery data.
-- Starts by displaying default images and an invitation to use the map.
-- Once a map marker is clicked, the images will swap out URLs, and the countries images will show.
-- Functions listen for a change to reset the image blur function.
-- Information for a blurb is stored on the gallery page and injected into the loaded iframe on click.
-- The swap is animated with jQuery to make it less sudden.
-- Clicking on an image will insert the image source path into a modal before it pops up to display the image in full quality.
-- The gallery's height can vary by photos and device, so there is a function to adjust the height.
-- The function fires on page load one, and then each time a marker is clicked, after every image has loaded completely, otherwise the height set may be incorrect.
-- The images in the gallery space vertically automatically based on the gallery height.
 
 ### Contact Page
 <div align="center">
@@ -340,7 +306,7 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
 - A response message is sent to every email received, set up in EmailJS as a template.
 
 ## Additional Features
-### Image Loading Blur
+### Quiz 
 - All images utilise a loading blur function to smooth out their loading as the high-quality images can slow things down.
 - The function places a low-quality thumbnail as the default image, covering it with a CSS blur filter.
 - Simultaneously, it loads the full quality image set as the background image. Once it detects it is loaded it adds a class.
@@ -373,28 +339,22 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
     * Page markup.
 - [CSS](w3.org/standards/webdesign/htmlcss)
     * Styling.
-- [SASS](https://sass-lang.com/)
-    * Used to customise Bootstrap and CSS styles.
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
     * Running functions for interactive components, AJAX, etc.
 
 ## Frameworks
-- [Bootstrap4](https://getbootstrap.com/)
+- [Bootstrap5](https://getbootstrap.com/)
     * Used for basic styles and outline.
 
 ## Libraries
-- [JQuery](https://jquery.com/)
-    * Animations and click functions.
+
 - [Google Fonts](https://fonts.google.com)
     * Font Styles.
 - [Fontawesome](https://fontawesome.com/)
     * Used for icons
+- [npm](https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js)
+    * Used for confetti
 
-## APIs
-- [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
-    * Map, markers and styles.
-- [REST Countries API](https://restcountries.eu/)
-    * Statistics for infowindow, marker information
 
 ## Platforms
 - [Github](https://github.com/)
@@ -407,10 +367,7 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
     * To create wireframes.
 - [Favicon Generator](https://www.favicon-generator.org/)
     * Favicons
-- [Mockup Generator](https://techsini.com/multi-mockup/index.php)
-    * For device mockup images.
-- [Coolors](https://coolors.co/)
-    * Creating color pallettes.
+
 
 ----
 
@@ -446,21 +403,8 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
 
 ## Bugs
 ### Known Bugs
-- Occasionally on a device with low RAM, the Google Maps API won't load.
-- Devices with low RAM may have stuttered animations.
-- Offline, using the backup map, the images don't switch the first time the page loads. No errors are shown on the console. A refresh usually solves the issue.
-- Very slow connections may have users see the thumbnails pop in during iframe loading, rather than having the switch occur during the animation.
 
 ### Fixed Bugs
-- Jumbotron image wouldn't de-blur. Fixed by adding a custom class for selection and differentiation.
-- Markers wouldn't load if the connection to the API was slow. Fixed by adding a backup array to be used as a fall-back.
-- EmailJS wasn't allowing newsletters to be sent on the contact page. Fixed by giving each form a separate ID.
-- The map info window wouldn't dispose of itself but would open multiple instances, one over the other. Fixed by moving the initialisation instance outside of the click function.
-- The info window would concatenate one country's information with another after clicked. Fixed by clearing the info window content on each click before populating it with info.
-- If a country had multiple first languages, the info window would have a display that clipped them as they were stored in an array themselves. Fixed by writing a custom function to deal with languages.
-- All map markers would bounce if they had animations set to active. Fixed by looping through the markers and setting them to no animation before activating the clicked marker's animation.
-- The modal for images in the gallery wouldn't open because of the blur function. Fixed by changing the HTML structure on the page and the iframe.
-- One I added SASS, many of the site's display features were broken. Fixed by cleaning up the CSS files and removing clashing styles.
 
 ----
 
@@ -468,7 +412,7 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
 ## Local Deployment
 ### Local Preparation
 **Requirements:**
-- An IDE of your choice, such as [Visual Studio Code](https://code.visualstudio.com/)
+- An IDE of your choice, such as [github](https://github.com/)
 - [Git](https://git-scm.com/)
 - You will have to set up a connection with an email server through EmailJS:
 - You will have to install SASS to compile the CSS. This depends on your system and your method choice. Please see the instructions [here](https://sass-lang.com/install).
@@ -524,11 +468,11 @@ navigate to [https://github.com/Ri-Dearg/neverlost-thrift](https://github.com/Ri
 
 ## Credits and Contact
 ### Content
-Nearly all text content was generated by the AI, GPT-2, at [Talk to Transformer](https://talktotransformer.com/).
-**(So there will be plenty of grammar or spelling errors or even a bit of nonsense, but I thought it would be a fun addition to the project)88 
+Nearly all text content was generated by ChatGpt.
+
 Any code utilised from a site is documented and credited within the code.
-All photographs, authors, license rights, copyright, etc. used in this project can be found [here](https://unsplash.com/collections/8825126/used-in-horizon-photo). No credit is required from Unsplash,  
-All other media used is my own.
+All photographs were generated in [FREEPIK](https://de.freepik.com/search?icon_color=multicolor&format=search&type=icon&shape=fill)
+Logo design is my own.
 
 ### Contact
-Please feel free to contact me at `sheridan.rp@gmail.com`
+Please feel free to contact me at `c.wnt.nd1053gmail.com`
