@@ -146,8 +146,44 @@ main {
     padding-left: 5px;
 }
 
-/* storyline section styling */
+/* storyline section quiz*/
 
+.quiz-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  .quiz-section h2 {
+    color: #555;
+  }
+  .quiz-section label {
+    display: block;
+    margin: 10px 0;
+  }
+  .quiz-section button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .quiz-section button:hover {
+    background-color: #45a049;
+  }
+  .result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .correct {
+    color: green;
+  }
+  .wrong {
+    color: red;
+  }
 
 /* multiple choice game */
 
