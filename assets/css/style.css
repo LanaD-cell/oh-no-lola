@@ -58,6 +58,10 @@ p {
     text-align: center;
 }
 
+#logo { 
+    height: 50px; 
+    width: 80px;
+}
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -124,6 +128,8 @@ main {
     max-height: 810px;
     align-self: center;
 }
+
+
 
 /* hero image */
 #hero {
@@ -197,9 +203,10 @@ main {
 
 /* confetti styling*/
 .con-container {
-    height: 200px;
+    height: 300px;
     position: relative;
-    width: 100%;
+    width: 80%;
+    padding-left: 70px;
 
 }
 
