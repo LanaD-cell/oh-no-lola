@@ -38,15 +38,15 @@ document.addEventListener("DOMContentLoaded", function() {
    */
   function checkAnswer() {
     let userAnswer = parseInt(document.getElementById("answer-box").value);
-    let calculateAnswer = calculatedCorrectAnswer();
-    let isCorrect = userAnswer === calculatedAnswer[0];
+    let calculateAnswer = calculateCorrectAnswer();
+    let isCorrect = userAnswer === calculateAnswer[0];
   // message to the user after submitting
     if(isCorrect) {
       alert("Correct, well done!");
     } else {
-      alert("Aaaaah, you answered ${userAnswer}. The correct answer is ${calculatedAnswer[0]}");
+      alert(`Aaaaah, you answered ${userAnswer}. The correct answer is ${calculateAnswer[0]}`);
     }
-     runGame(calculatedAnswer[1]);
+     runGame(calculateAnswer[1]);
   }
   /**
   * Get the numbers and operators from the DOM
