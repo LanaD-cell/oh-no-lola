@@ -28,3 +28,4 @@ function checkAnswer(quizId, correctAnswer) {
   }
 }
 
+// math game
