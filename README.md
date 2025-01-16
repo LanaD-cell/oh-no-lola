@@ -109,14 +109,12 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
     <summary><a href="#local-deployment">Local Deployment</a></summary>
 
     - [Local Preparation](#local-preparation)
-    - [Local Instructions](#local-instructions)
     </details></li>
 
     <li><details>
     <summary><a href="#github-deployment">Github Deployment</a></summary>
 
-    - [Github Preparation](#github-preparation)
-    - [Github Instructions](#github-instructions)
+    - [Instructions](#instructions)
     </details></li>
     </ul>
 </details>
@@ -234,18 +232,9 @@ The Business Goals of Horizon Photography are:
   <img src="" alt="Small Footer">
 </div>
 
-
-
-
-
-
-
-
-
-
 ### Contact Page
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92344558-159d2600-f0c7-11ea-9e1d-836b5bc2586a.png" alt="Iframe Gallery">
+  <img src="#" alt="#">
 </div>
 
 
@@ -330,14 +319,13 @@ The Business Goals of Horizon Photography are:
 
 # Deployment
 ## Local Deployment
-### Local Preparation
+
 **Requirements:**
 - An IDE of your choice, such as [github](https://github.com/)
 - [Git](https://git-scm.com/)
 - You will have to set up a connection with an email server through EmailJS:
 - You will have to install SASS to compile the CSS. This depends on your system and your method choice. Please see the instructions [here](https://sass-lang.com/install).
 
-### Local Instructions
 
 
 ## Github Deployment
