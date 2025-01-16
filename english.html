@@ -151,7 +151,7 @@
                     <label><input type="radio" name="quiz1" value="1"> He lost his way in the forest.</label>
                     <label><input type="radio" name="quiz1" value="2"> He lost his hat.</label>
                     <label><input type="radio" name="quiz1" value="3"> He was hungry.</label>
-                    <button onclick="checkAnswer('quiz1', 2)">Submit</button>
+                    <button id="mcq-button" onclick="checkAnswer('quiz1', 2)">Submit</button>
                     <p class="result" id="result1"></p>
                 </div>
 
@@ -205,7 +205,7 @@
                     <label><input type="radio" name="quiz2" value="2"> That she didn’t need wings to fly.</label>
                     <label><input type="radio" name="quiz2" value="3"> That she could borrow wings from someone
                         else.</label>
-                    <button onclick="checkAnswer('quiz2', 1)">Submit</button>
+                    <button id="mcq-button" onclick="checkAnswer('quiz2', 1)">Submit</button>
                     <p class="result" id="result2"></p>
                 </div>
 
@@ -273,7 +273,7 @@
                     <label><input type="radio" name="quiz3" value="2"> Because she trusted her instincts and saw that
                         the fox was helpless.</label>
                     <label><input type="radio" name="quiz3" value="3"> Because the fox promised her a reward.</label>
-                    <button onclick="checkAnswer('quiz3', 2)">Submit</button>
+                    <button id="mcq-button" onclick="checkAnswer('quiz3', 2)">Submit</button>
                     <p class="result" id="result3"></p>
                 </div>
 
@@ -341,8 +341,9 @@
                 <div class="con-container text-center">
                     <div class="col align-self-end">
                         <div class=" row vertical-center">
-                            <button id="con-button" class="btn btn-warning btn-lg">*click me* <br> Let’s
-                                celebrate!! <br> *click me*</button> <canvas id="confetti"></canvas>
+                            <button id="con-button" class="btn btn-warning">*click me* Let’s
+                                celebrate!!</button> 
+                                <canvas id="confetti"></canvas>
 
                         </div>
                     </div>

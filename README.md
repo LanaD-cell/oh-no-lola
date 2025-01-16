@@ -132,36 +132,14 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 ## Goals
 ### Visitor Goals
 The target audience for Horizon Photography are:
-- People who want to view beautiful photos.
-- People who are interested in seeing different countries.
-- People that may want to license a photo.
-- People interested in hiring a photographer.
-- People interested in the photographer's travels.
+
 
 User goals are:
-- View a gallery of different photos.
-- Explore different countries on the map to see what they look like.
-- Contact the photographer.
-- Get an overview of a country's statistics.
-- Follow the photographer's journey.
 
-Horizon Photography fills these needs by:
-- Opening with a dramatic image and introducing the photographer immediately.
-- The map and gallery are highlighted on the main page to lead users to the images wherever they click.
-- Highlighting the Contact page in the header and footer.
-- Providing social media links to follow the photographer.
-- 500px link allows a user to license photos.
-- Providing an interactive map with an info-box that displays country info from an API
-- Showing beautiful images related to each country when clicked.
-- Utilising [EmailJS](https://www.emailjs.com/) to maintain the contact page and the newsletter.
+
 
 ### Business Goals
-The Business Goals of Horizon Photography are:
-- Display and highlight the photographer's work in a unique way.
-- Gain subscribers through the newsletter.
-- Provide easy ways to communicate with the photographer.
-- Gain interest and connect with social media.
-- Connect to where the photos are sold.
+
 
 
 

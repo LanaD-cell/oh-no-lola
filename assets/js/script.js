@@ -1,13 +1,3 @@
-// confetti
-const button = document.querySelector('#con-button');
-const canvas = document.querySelector('#confetti');
-
-const jsConfetti = new JSConfetti()
-
-button.addEventListener('click', () => {
-  jsConfetti.addConfetti()
-});
-
 // quiz for each section
 
 function checkAnswer(quizId, correctAnswer) {
@@ -28,4 +18,55 @@ function checkAnswer(quizId, correctAnswer) {
   }
 }
 
+// confetti
+const button = document.querySelector('#con-button');
+const canvas = document.querySelector('#confetti');
+
+const jsConfetti = new JSConfetti()
+
+button.addEventListener('click', () => {
+  jsConfetti.addConfetti()
+});
+
 // math game
+//document.addEventListener("DOMContentLoaded", function() {
+  //let buttons = document.getElementsById("button");
+
+  //for(let button of buttons) {
+    //button.addEventListener("click", function() {
+    
+    })
+  }
+})
+
+function runGame() {
+
+}
+function checkAnswer(){
+
+}
+function calculateCorrectAnswer() {
+
+}
+function incrementScore() {
+
+}
+function incrementWrongAnswer() {
+
+}
+function displayAdditionQuestion() {
+
+}
+function displaySubtractQuestion() {
+
+}
+function displayDivideQuestion() {
+
+}
+function displayTimesQuestion() {
+
+}
+
+
+
+

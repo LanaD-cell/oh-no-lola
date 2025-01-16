@@ -231,6 +231,14 @@ main {
     margin: 0;
     position: absolute;
     top: 50%;
+    
+}
+
+#con-button {
+    background-color: orange;
+    color: #ffffff;
+    max-height: 80px;
+    width: 100%;
 
 }
 
@@ -466,8 +474,6 @@ footer {
 
     .controls-area {
         width: 100%;
-      
-       
     }
 
     .btn-lg {
