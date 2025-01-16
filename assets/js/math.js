@@ -1,21 +1,29 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let mbutton = document.getElementById("math-btn");
-  
-    for (let i = 0; i > mbutton.length; i++) {
+  let buttons = document.getElementsByTagName("button");
+
+  for (let button of buttons) {
       button.addEventListener("click", function() {
-        if (this.getAttribute("data-type") === "submit") {
-          alert("You clicked Submit!");
-        } else {
-  let gameType = this.getAttribute("data-type");
-  alert(`You clicked ${gameType}`);
-        }
-      })
-  
-    }
-  })
-  function runGame() {
-  
+          if (this.getAttribute("data-type") === "submit") {
+              alert("You clicked Submit!");
+          } else {
+              let gameType = this.getAttribute("data-type");
+              alert(`You clicked ${gameType}`);
+          }
+      });
   }
+});
+
+/**
+ * game "loop" when the user enters answer, script is called
+ */
+  function runGame() {
+
+    // create random numbers for the game
+   let num1 = Math.floor(Math.random() * 25) + 1;
+   let num2 = Math.floor(Math.random() * 25) + 1;
+  }
+
+  runGame();
   
   function checkAnswer() {
   
