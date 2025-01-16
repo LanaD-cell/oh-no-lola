@@ -128,15 +128,33 @@ main {
     max-height: 810px;
     align-self: center;
 }
+/* homepage styling */
+#hero-main {
+    height: 700px;
+    min-width: 100%;
+    background: url(../images/homepage.png) no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-main-covertext {
+    background-color: rgba(217, 144, 7, .7);
+    font-family: "Courgette", sans-serif;
+    font-size: 180%;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+}
 
 
-
-/* hero image */
+/* hero image for english page*/
 #hero {
     height: 700px;
     min-width: 100%;
     background: url(../images/new-hero.jpeg) no-repeat center center/cover;
 }
+
 
 #hero h1 {
     color: white;
@@ -150,6 +168,25 @@ main {
     color: white;
     font-size: 80px;
     padding-left: 5px;
+}
+
+/* hero maths */
+#hero-math {
+    height: 700px;
+    min-width: 100%;
+    background: url(../images/math-hero.png) no-repeat center center/cover;
+}
+
+
+#hero-math-covertext {
+    background-color: rgba(217, 144, 7, .7);
+    font-family: "Courgette", sans-serif;
+    font-size: 180%;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
 }
 
 /* storyline section quiz*/
