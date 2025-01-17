@@ -516,7 +516,7 @@ footer {
     text-align: center;
 }
 
-#quiz-row {
+.quiz-row {
     max-width: 100%;
     flex-shrink: 1;
 }
