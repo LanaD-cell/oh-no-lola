@@ -44,9 +44,9 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
     <li><details>
     <summary><a href="#page-elements">Page Elements</a></summary>
 
-    
     - [Index Page](#index-page)
-    - [Games Page](#games-page)
+    - [English Page](#english-page)
+    - [Math Page](#math-page)
     - [Contact Page](#contact-page)
     </details></li>
 
@@ -140,7 +140,7 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 ## Visual Design
 ### Wireframes
 <div align="center">
-  <img src="../oh-no-lola/documentation/wireframe - oh-no-Lola.png" alt="Wireframes">
+  <img src="assets/documentation/wireframe - oh-no-Lola.png" alt="Wireframes">
 </div>
 
 - Wireframes were created on [Balsamiq](https://balsamiq.com/)
