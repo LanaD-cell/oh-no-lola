@@ -455,6 +455,30 @@ main {
     background-color: #0d1013;
 }
 
+/* contact page styling */
+
+#hero-contact { 
+    height: 700px;
+    min-width: 100%;
+    position: relative;
+    background: url(../images/contact-img.png) no-repeat center center/cover;
+}
+
+#hero-contact-covertext {
+    background-color: rgba(217, 144, 7, .4);
+    color: white;
+    font-family: "Courgette", sans-serif;
+    font-size: 200%;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+}
+
+
+
+
 
 /* footer */
 footer {
