@@ -250,6 +250,7 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 - [Bootstrap5](https://getbootstrap.com/)
     * Used for basic styles and outline.
 
+
 ## Libraries
 
 - [Google Fonts](https://fonts.google.com)
@@ -279,9 +280,12 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 ## Methods
 ### Validation
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
-- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
-- Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
+- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 - Each javascript file was tested on the site for errors and functionality using the console and with [JSHint](https://jshint.com/).
+
+<div align="center">
+  <img src="assets/documentation/homepage-w3validator.png" alt="Homepage">
+</div>
 
 ### General Testing
 
