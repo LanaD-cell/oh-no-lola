@@ -9,7 +9,7 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
+
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -145,14 +145,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="quiz-section" id="quiz1">
-                    <h2>Quiz: Patience with Percy</h2>
-                    <p>What was Percy’s problem?</p>
-                    <label><input type="radio" name="quiz1" value="1"> He lost his way in the forest.</label>
-                    <label><input type="radio" name="quiz1" value="2"> He lost his hat.</label>
-                    <label><input type="radio" name="quiz1" value="3"> He was hungry.</label>
-                    <button onclick="checkAnswer('quiz1', 2)">Submit</button>
-                    <p class="result" id="result1"></p>
+                <div id="quiz-row" class="row">
+                    <div class="quiz-section" id="quiz1">
+                        <h2>Quiz: Patience with Percy</h2>
+                        <p>What was Percy’s problem?</p>
+                        <label><input type="radio" name="quiz1" value="1"> He lost his way in the forest.</label>
+                        <label><input type="radio" name="quiz1" value="2"> He lost his hat.</label>
+                        <label><input type="radio" name="quiz1" value="3"> He was hungry.</label>
+                        <button onclick="checkAnswer('quiz1', 2)">Submit</button>
+                        <p class="result" id="result1"></p>
+                    </div>
                 </div>
 
                 <div class="col align-self-center">
@@ -197,6 +199,7 @@
                         </div>
                     </div>
                 </div>
+                <div id="quiz-row" class="row">
                 <div class="quiz-section" id="quiz2">
                     <h2>Quiz: Hope with Butter</h2>
                     <p>What did Lola tell Butter to give her hope?</p>
@@ -208,6 +211,7 @@
                     <button onclick="checkAnswer('quiz2', 1)">Submit</button>
                     <p class="result" id="result2"></p>
                 </div>
+            </div>
 
                 <div class="col align-self-center">
                     <div class="card">
@@ -266,6 +270,7 @@
                         </div>
                     </div>
                 </div>
+                <div id="quiz-row" class="row">
                 <div class="quiz-section" id="quiz3">
                     <h2>Quiz: Trust with the Fox</h2>
                     <p>Why did Lola decide to help the fox?</p>
@@ -276,7 +281,7 @@
                     <button onclick="checkAnswer('quiz3', 2)">Submit</button>
                     <p class="result" id="result3"></p>
                 </div>
-
+            </div>
 
 
 
@@ -342,8 +347,8 @@
                     <div class="col align-self-end">
                         <div class=" row vertical-center">
                             <button id="con-button" class="btn btn-warning">*click me* Let’s
-                                celebrate!!</button> 
-                                <canvas id="confetti"></canvas>
+                                celebrate!!</button>
+                            <canvas id="confetti"></canvas>
 
                         </div>
                     </div>
@@ -380,4 +385,5 @@
     <script src="https://kit.fontawesome.com/5307206c46.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

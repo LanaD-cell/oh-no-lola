@@ -147,6 +147,22 @@ main {
     padding: 15px;
 }
 
+/* styling link to pages */
+
+#homepage-card {
+    background-color: #589dd9;
+    color: white;
+    padding: 0;
+    margin-top: 5px;
+
+}
+
+#link-pages {
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-bottom: 15px;
+}
+
 
 /* hero image for english page*/
 #hero {
@@ -172,10 +188,11 @@ main {
 
 /* storyline section quiz*/
 .quiz-section {
-    margin-bottom: 30px;
+    margin: 30px;
     padding: 20px;
     border-radius: 8px;
     background-color: #589dd9;
+    max-width: 50%;
 }
 
 .quiz-section h2 {
@@ -191,7 +208,7 @@ main {
 
 .quiz-section button {
     margin-top: 10px;
-    margin-left: 139px;
+    margin-left: 10px;
     padding: 10px 15px;
     background-color: #f5b705;
     color: #fff;
@@ -465,9 +482,9 @@ footer {
     color: #3a3a3a;
 }
 
-/* media queries for math page*/
-
 /* media query for math page: mobile screens max 320px (320px) */
+
+/* media queries for math page*/
 @media (max-width: 320px) {
     .game-area {
         height: 80vh;
@@ -485,7 +502,28 @@ footer {
         padding: 10px 0;
     }
 
+
+
+/* home page cards styling */
+#card-align {
+    max-width: 200%;
 }
+
+/* media queries for english page*/
+.quiz-section {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #589dd9;
+    width: 100%;
+}
+
+#quiz-row {
+    max-width: 100%;
+    flex-shrink: 1;
+}
+}
+
 /* media query for math page: mobile screens max 414px (px) */
 @media (max-width: 414px) {
     .controls-area {
