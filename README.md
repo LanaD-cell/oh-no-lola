@@ -192,9 +192,12 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 ----
 
 # Features
-## Page Elements
+### Page Elements
 
-### All Pages
+#### Index Page
+#### English Page
+#### Math Page
+#### Contact Page
 
 #### Navbar
 <div align="center">
