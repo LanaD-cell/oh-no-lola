@@ -1,9 +1,7 @@
 <div align="center">
-  <img src="#" style="background-color: black" alt="Oh no Lola pic">
+  <img src="assets/documentation/mockup-hp.png" style="background-color: black" alt="homepage">
 </div>
-<div align="center">
-  <img src="#" alt="Home Page">
-</div>
+
 
 ![oh no Lol](assets/images/logo.webp)
 
@@ -95,8 +93,7 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
     <li><details>
     <summary><a href="#bugs">Bugs</a></summary>
 
-    - [Known Bugs](#known-bugs)
-    - [Fixed Bugs](#fixed-bugs)
+    - [Known Bugs and fixes](#known-bugs-and-fixes)
     </details></li>
     </ul>
 </details>
@@ -202,16 +199,14 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 
 #### Navbar
 <div align="center">
-  <img src="" alt="Medium Header">
-  <img src="" alt="Small Header">
+  <img src="assets/documentation/navbar.png" alt="Large Header">
 </div>
 
 
 
 #### Footer
 <div align="center">
-  <img src="" alt="Medium Footer">
-  <img src="" alt="Small Footer">
+  <img src="assets/documentation/footer.png" alt="Large Footer">
 </div>
 
 ### Contact Page
@@ -297,9 +292,9 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 
 
 ## Bugs
-### Known Bugs
-
-### Fixed Bugs
+### Known Bugs and fixes
+ - I had a major problem with javascript coding affecting other elements.
+    - I created a javascript page dedicated to each page. 
 
 ----
 
@@ -317,7 +312,14 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 ## Github Deployment
 
 ### Instructions
-
+ - Log into [Github](https://github.com/LanaD-cell)
+ - In "Popular repositories" click on oh-no-lola.
+ - On the right side of the page, under "Deployments", click on github-pages.
+ - A new page will open,(https://github.com/LanaD-cell/oh-no-lola/deployments/github-pages).
+ - At the top of the page, there will be a link for the deployment site.
+ - The following link can be used to view the deployed site,[Github Deployment](https://lanad-cell.github.io/oh-no-lola/)
+ - When clicked, the website will open on a new page.
+  
 
 ## Credits and Contact
 ### Content
