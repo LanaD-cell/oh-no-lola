@@ -53,9 +53,11 @@ em {
 }
 
 p {
+    margin-left: 20px;
+    margin-right: 20px;
     color: #3a3a3a;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+    text-align: left;
 }
 
 #logo { 
@@ -137,9 +139,9 @@ main {
 }
 
 #hero-main-covertext {
-    background-color: rgba(217, 144, 7, .7);
+    background-color: rgba(217, 144, 7, .4);
     font-family: "Courgette", sans-serif;
-    font-size: 180%;
+    font-size: 300%;
     position: absolute;
     bottom: 30px;
     width: 100%;
@@ -188,11 +190,10 @@ main {
 
 /* storyline section quiz*/
 .quiz-section {
-    margin: 10px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     background-color: #589dd9;
-    max-width: 50%;
+   
 }
 
 .quiz-section h2 {
@@ -511,11 +512,12 @@ footer {
 
 /* media queries for english page*/
 .quiz-section {
-    margin: 10px;
+    margin-left: 10px;
     padding: 5px;
     border-radius: 8px;
     background-color: #589dd9;
     width: 100%;
+    text-align: center;
 }
 
 #quiz-row {
@@ -626,7 +628,7 @@ footer {
         position: relative;
         
     }
-}
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {

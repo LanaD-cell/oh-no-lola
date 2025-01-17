@@ -131,10 +131,7 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 # UX
 ## Goals
 ### Visitor Goals
-The target audience for Horizon Photography are:
 
-
-User goals are:
 
 
 
@@ -151,6 +148,11 @@ User goals are:
 
 - Wireframes were created on [Balsamiq](https://balsamiq.com/)
 - Initially the site was just meant to be a one page scroller, that evolved into a multipage site. 
+- The site contains 3 pages 
+   - Homepage
+   - English reading
+   - Maths game
+  
 
 
 ### Fonts
@@ -162,13 +164,15 @@ User goals are:
 
 ### Icons
 <div align="center">
-  <img src="#" alt="Icons">
+  <img src="assets/documentation/icons.png" alt="Icons">
 </div>
+
+- The icons are all arranged in a footer section and link to the respective website.
 
 
 ### Colors
 <div align="center">
-  <img src="../oh-no-lola/documentation/colors.webp" alt="Color Pallette">
+  <img src="assets/documentation/colors.webp" alt="Color Pallette">
 </div>
 
 - As this site is dedicated to education, I chose the colors accordingly.
@@ -181,12 +185,12 @@ User goals are:
 
 ### Images
 <div align="center">
-  <img src="" alt="Images">
+  <img src="assets/documentation/images.jpg" alt="Images">
 </div>
 
-
-
-### Styling
+- Images were all created using AI in [Freepik](https://de.freepik.com).
+- The mood of the website is whimsical and I wanted the imagery to reflect that.
+- AI was used as my story is original and I was unable to find the images that fit.
 
 
 ----

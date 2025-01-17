@@ -89,7 +89,7 @@
 
             With a deep breath and a little quack of determination, Lola waddled into the forest. The sunlight filtered
             through the tall trees, and birds sang happy songs. Lola smiled but kept her little wings close to her
-            sides. She wasn’t just excited—she was nervous.
+            sides. She wasn’t just excited—she was nervous.</p>
 
             <!-- start of storyline -->
 
@@ -146,6 +146,7 @@
                     </div>
                 </div>
                 <div id="quiz-row" class="row">
+                    <div class="col-sm-12 col-md-8, col-lg-6">
                     <div class="quiz-section" id="quiz1">
                         <h2>Quiz: Patience with Percy</h2>
                         <p>What was Percy’s problem?</p>
@@ -156,6 +157,9 @@
                         <p class="result" id="result1"></p>
                     </div>
                 </div>
+            </div>
+
+            <br>
 
                 <div class="col align-self-center">
                     <div class="card">
@@ -200,18 +204,21 @@
                     </div>
                 </div>
                 <div id="quiz-row" class="row">
-                <div class="quiz-section" id="quiz2">
-                    <h2>Quiz: Hope with Butter</h2>
-                    <p>What did Lola tell Butter to give her hope?</p>
-                    <label><input type="radio" name="quiz2" value="1"> That she would grow wings someday and become a
-                        butterfly.</label>
-                    <label><input type="radio" name="quiz2" value="2"> That she didn’t need wings to fly.</label>
-                    <label><input type="radio" name="quiz2" value="3"> That she could borrow wings from someone
-                        else.</label>
-                    <button onclick="checkAnswer('quiz2', 1)">Submit</button>
-                    <p class="result" id="result2"></p>
+                    <div class="col-sm-12 col-md-8, col-lg-6">
+                    <div class="quiz-section" id="quiz2">
+                        <h2>Quiz: Hope with Butter</h2>
+                        <p>What did Lola tell Butter to give her hope?</p>
+                        <label><input type="radio" name="quiz2" value="1"> That she would grow wings someday and become
+                            a
+                            butterfly.</label>
+                        <label><input type="radio" name="quiz2" value="2"> That she didn’t need wings to fly.</label>
+                        <label><input type="radio" name="quiz2" value="3"> That she could borrow wings from someone
+                            else.</label>
+                        <button onclick="checkAnswer('quiz2', 1)">Submit</button>
+                        <p class="result" id="result2"></p>
+                    </div>
                 </div>
-            </div>
+                </div>
 
                 <div class="col align-self-center">
                     <div class="card">
@@ -271,17 +278,22 @@
                     </div>
                 </div>
                 <div id="quiz-row" class="row">
-                <div class="quiz-section" id="quiz3">
-                    <h2>Quiz: Trust with the Fox</h2>
-                    <p>Why did Lola decide to help the fox?</p>
-                    <label><input type="radio" name="quiz3" value="1"> Because the fox begged her to help.</label>
-                    <label><input type="radio" name="quiz3" value="2"> Because she trusted her instincts and saw that
-                        the fox was helpless.</label>
-                    <label><input type="radio" name="quiz3" value="3"> Because the fox promised her a reward.</label>
-                    <button onclick="checkAnswer('quiz3', 2)">Submit</button>
-                    <p class="result" id="result3"></p>
+                    <div class="col-sm-12 col-md-8, col-lg-6">
+                        <div class="quiz-section" id="quiz3">
+                            <h2>Quiz: Trust with the Fox</h2>
+                            <p>Why did Lola decide to help the fox?</p>
+                            <label><input type="radio" name="quiz3" value="1"> Because the fox begged her to
+                                help.</label>
+                            <label><input type="radio" name="quiz3" value="2"> Because she trusted her instincts and saw
+                                that
+                                the fox was helpless.</label>
+                            <label><input type="radio" name="quiz3" value="3"> Because the fox promised her a
+                                reward.</label>
+                            <button onclick="checkAnswer('quiz3', 2)">Submit</button>
+                            <p class="result" id="result3"></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
 
 
@@ -329,15 +341,15 @@
             <!-- Congratulations with confetti -->
             <div class="card text-center">
                 <div class="card-body">
-                  <h5 class="card-title">HOOOORAY!!</h5>
-                  <p class="card-text">You finished the story, good job!</p>
-                  <button id="con-button" class="btn btn-warning">*click me* Let’s
-                    celebrate!!</button>
-                <canvas id="confetti"></canvas>
+                    <h3 class="card-title">HOOOORAY!!</h3>
+                    <h4 class="card-text">You finished the story, good job!</h4>
+                    <button id="con-button" class="btn btn-warning">*click me* Let’s
+                        celebrate!!</button>
+                    <canvas id="confetti"></canvas>
                 </div>
-              </div>
+            </div>
 
-           
+
     </main>
 
     <!-- footer -->
