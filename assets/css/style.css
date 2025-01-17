@@ -188,7 +188,7 @@ main {
 
 /* storyline section quiz*/
 .quiz-section {
-    margin: 30px;
+    margin: 10px;
     padding: 20px;
     border-radius: 8px;
     background-color: #589dd9;
@@ -208,7 +208,6 @@ main {
 
 .quiz-section button {
     margin-top: 10px;
-    margin-left: 10px;
     padding: 10px 15px;
     background-color: #f5b705;
     color: #fff;
@@ -256,6 +255,7 @@ main {
     color: #ffffff;
     max-height: 80px;
     width: 100%;
+   
 
 }
 
