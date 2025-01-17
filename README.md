@@ -32,7 +32,6 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
     - [Icons](#icons)
     - [Colors](#colors)
     - [Images](#images)
-    - [Styling](#styling)
     </details></li>
     </ul>
 </details>
@@ -331,3 +330,5 @@ Logo design is my own.
 
 ### Contact
 Please feel free to contact me at `c.wnt.nd1053gmail.com`
+
+[def]: #index-page
