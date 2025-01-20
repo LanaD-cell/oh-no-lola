@@ -195,9 +195,21 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 ### Page Elements
 
 #### Index Page
+
+- This page offers a beautiful introduction, with a small about section.
+- Two links lead the user to the respective pages, English reading and Math.
+- 
 #### English Page
+
+- The story of little Lolas way to school is broken up into sections.
+- Each section contains a image, text and a small MCQ (js funcionality).
+- At the end of the page, we find a bit of fun with a confetti button (js funcionality).
+- A button is place at the end of the page above the footer, to return the user to the top (js funcionality).
 #### Math Page
+
+
 #### Contact Page
+
 
 #### Navbar
 <div align="center">

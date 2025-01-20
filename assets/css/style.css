@@ -134,6 +134,7 @@ main {
 }
 
 #hero-main-covertext {
+    color: white;
     background-color: rgba(217, 144, 7, .4);
     font-family: "Courgette", sans-serif;
     font-size: 300%;
@@ -254,6 +255,11 @@ main {
     width: 100%;
    
 
+}
+
+#toTopBtn {
+    text-align: center;
+    
 }
 
 /* math page styling */
