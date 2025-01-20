@@ -52,6 +52,7 @@ h2 {
 
 em {
     font-family: "Courgette", sans-serif;
+  
 }
 
 p {
@@ -183,10 +184,11 @@ main {
     padding-top: 50px;
 }
 
-#intro>h1 {
-    color: white;
+#intro {
+    color: #3a3a3a;
     font-size: 80px;
     padding-left: 5px;
+    text-align: center;
 }
 
 /* storyline section quiz*/
@@ -266,132 +268,8 @@ main {
 
 }
 
-/* math page styling */
 
-/* hero maths */
-#hero-math {
-    height: 700px;
-    min-width: 100%;
-    background: url(../images/math-hero.png) no-repeat center center/cover;
 
-}
-
-#hero-math h1 {
-    background-color: rgba(217, 144, 7, .7);
-    color: white;
-    font-family: "Courgette", sans-serif;
-    text-align: center;
-    font-size: 50px;
-    margin-top: 20px;
-    padding-top: 50px;
-}
-
-/* math page game styling */
-
-.math-container {
-    background-color: #589dd9;
-    font-family: "Poppins", sans-serif;
-    color: #3a3a3a;
-    text-align: center;
-}
-
-/* heading */
-
-.math-heading {
-    color: white;
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-.math-logo {
-    height: 40px;
-    padding-right: 5px;
-}
-
-/* game layout */
-
-/* game 2 styling */
-
-:root {
-    --hue-neutral: 132;
-    --hue-wrong: 0;
-    --hue-correct: 120;
-}
-
-#body {
-    --hue: var(--hue-neutral);
-    padding: 0;
-    margin: 0;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
-  }
-  
-  #body.correct {
-    --hue: var(--hue-correct);
-  }
-  
-  #body.wrong {
-    --hue: var(--hue-wrong);
-  }
-  
-  .quiz-container {
-    width: 800px;
-    max-width: 80%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 2px;
-  }
-  
-  .btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
-  }
-  
-  .btn {
-    --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
-    background-color: hsl(var(--hue), 100%, 50%);
-    border-radius: 5px;
-    padding: 5px 10px;
-    color: white;
-    outline: none;
-  }
-  
-  .btn:hover {
-    border-color: black;
-  }
-  
-  .btn.correct {
-    --hue: var(--hue-correct);
-    color: black;
-  }
-  
-  .btn.wrong {
-    --hue: var(--hue-wrong);
-  }
-  
-  .start-btn, .next-btn {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-  }
-  
-  .controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hide {
-    display: none;
-  }
 /* contact page styling */
 
 #hero-contact {
