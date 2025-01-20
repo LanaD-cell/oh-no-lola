@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* asterisk wildcard selector to override default styles added by the browser */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box
@@ -60,10 +62,11 @@ p {
     text-align: left;
 }
 
-#logo { 
-    height: 50px; 
+#logo {
+    height: 50px;
     width: 80px;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -125,6 +128,7 @@ main {
     max-height: 810px;
     align-self: center;
 }
+
 /* homepage styling */
 #hero-main {
     height: 700px;
@@ -190,7 +194,7 @@ main {
     padding: 10px;
     border-radius: 8px;
     background-color: #589dd9;
-   
+
 }
 
 .quiz-section h2 {
@@ -245,7 +249,7 @@ main {
     margin: 0;
     position: absolute;
     top: 50%;
-    
+
 }
 
 #con-button {
@@ -253,13 +257,13 @@ main {
     color: #ffffff;
     max-height: 80px;
     width: 100%;
-   
+
 
 }
 
 #toTopBtn {
     text-align: center;
-    
+
 }
 
 /* math page styling */
@@ -269,11 +273,11 @@ main {
     height: 700px;
     min-width: 100%;
     background: url(../images/math-hero.png) no-repeat center center/cover;
-    
+
 }
 
 #hero-math h1 {
-    background-color: rgba(217, 144, 7, .7); 
+    background-color: rgba(217, 144, 7, .7);
     color: white;
     font-family: "Courgette", sans-serif;
     text-align: center;
@@ -309,49 +313,88 @@ main {
 /* game 2 styling */
 
 :root {
-  --hue-neutral: 44;
-  --hue-wrong: 0;
-  --hue-correct: 145;
+    --hue-neutral: 132;
+    --hue-wrong: 0;
+    --hue-correct: 120;
 }
 
-#quiz2-body {
+#body {
     --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
     display: flex;
-    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 50vh;
-    background-color: hsl(var(--hue), 96%, 49%);
-    color: #3a3a3a;
-
-}
-
-
-#math-container2 {
+    background-color: hsl(var(--hue), 100%, 20%);
+  }
+  
+  #body.correct {
+    --hue: var(--hue-correct);
+  }
+  
+  #body.wrong {
+    --hue: var(--hue-wrong);
+  }
+  
+  .container {
     width: 800px;
     max-width: 80%;
-    background-color: lightgrey;
+    background-color: white;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 0 0 4px 2px;
-
-}
-
-.btn-grid {
+    box-shadow: 0 0 10px 2px;
+  }
+  
+  .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 5px;
+    gap: 10px;
     margin: 20px 0;
-}
-
-.btn-g2 {
-
-}
-
+  }
+  
+  .btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+  
+  .btn:hover {
+    border-color: black;
+  }
+  
+  .btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+  }
+  
+  .btn.wrong {
+    --hue: var(--hue-wrong);
+  }
+  
+  .start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
 /* contact page styling */
 
-#hero-contact { 
+#hero-contact {
     height: 700px;
     min-width: 100%;
     position: relative;
@@ -413,31 +456,32 @@ footer {
         margin: 10px 10px;
         padding-top: 10px;
     }
+
     .question-area {
         padding: 10px 0;
     }
 
 
 
-/* home page cards styling */
-#card-align {
-    max-width: 200%;
-}
+    /* home page cards styling */
+    #card-align {
+        max-width: 200%;
+    }
 
-/* media queries for english page*/
-.quiz-section {
-    margin-left: 10px;
-    padding: 5px;
-    border-radius: 8px;
-    background-color: #589dd9;
-    width: 100%;
-    text-align: center;
-}
+    /* media queries for english page*/
+    .quiz-section {
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 8px;
+        background-color: #589dd9;
+        width: 100%;
+        text-align: center;
+    }
 
-.quiz-row {
-    max-width: 100%;
-    flex-shrink: 1;
-}
+    .quiz-row {
+        max-width: 100%;
+        flex-shrink: 1;
+    }
 }
 
 /* media query for math page: mobile screens max 414px (px) */
@@ -478,6 +522,7 @@ footer {
         display: block;
         margin: 0 auto;
     }
+
     .btn-secondary {
         margin-top: 0;
     }
@@ -527,11 +572,11 @@ footer {
         min-width: 100%;
         background: url(../images/math-hero-lgscreens.png) no-repeat center center/cover;
         padding-top: 200px;
-        
+
     }
 
     #hero-math h1 {
-        background-color: rgba(217, 144, 7, .7); 
+        background-color: rgba(217, 144, 7, .7);
         color: white;
         font-family: "Courgette", sans-serif;
         text-align: center;
@@ -540,13 +585,13 @@ footer {
         margin: 0;
         padding: 0;
         position: relative;
-        
+
     }
 
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
     }
-}
