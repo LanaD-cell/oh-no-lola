@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* asterisk wildcard selector to override default styles added by the browser */
-* {
+*, *::before, *::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box
@@ -306,159 +306,47 @@ main {
 
 /* game layout */
 
-.game-area {
-    background-color: lightgrey;
-    box-sizing: border-box;
-    width: 85%;
-    min-height: fit-content;
-    max-height: 450px;
-    max-width: 830px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1%;
+/* game 2 styling */
+
+:root {
+  --hue-neutral: 44;
+  --hue-wrong: 0;
+  --hue-correct: 145;
 }
 
-.question-area {
-    width: 50%;
-    font-size: 2rem;
-    margin: auto;
-    padding: 50px 0;
-    background-color:  lightgrey;
-}
-
-.question-area span {
-    padding: 0 15px;
-}
-
-.score-area {
-    margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
-}
-
-.controls-area {
-    width: 85%;
-    margin: 30px auto;
-}
-
-#score {
-    color: green;
-    font-weight: bold;
-}
-
-#incorrect {
-    color: red;
-    font-weight: bold;
-}
-
-.answer-message {
-    display: none;
-    font-size: 1rem;
-}
-
-#answer-box {
-    border: none;
-    color: #445361;
-    display: inline-block;
-    height: 40px;
-    width: 80px;
-    font-size: 1.2rem;
-}
-
-.scores {
-    display: inline-block;
-    padding: 25px;
-}
-
-/* buttons */
-
-.btn {
-    width: 220px;
-    height: 60px;
+#quiz2-body {
+    --hue: var(--hue-neutral);
+    display: flex;
     font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: hsl(var(--hue), 96%, 49%);
     color: #3a3a3a;
+
 }
 
-.btn:focus {
-    outline: none;
+
+#math-container2 {
+    width: 800px;
+    max-width: 80%;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 4px 2px;
+
 }
 
-.btn-lg {
-    padding-top: 10px;
-    border-radius: 50%;
-    background-color: white;
-    border: 10px solid;
-    width: 100px;
-    height: 100px;
-    font-size: 3.2rem;
-    margin: 10px 30px;
-    transition: all 0.5s;
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    margin: 20px 0;
 }
 
-.btn-lg::after {
-    content: attr(data-type);
-    font-size: 1rem;
-    color: white;
-    position: relative;
-    left: -0.5em;
-}
+.btn-g2 {
 
-.btn-primary {
-    border-color: blue;
-    color: blue;
-}
-
-.btn-primary:active,
-.btn-primary:hover {
-    background-color: darkblue;
-    color: darkblue;
-}
-
-.btn-warning {
-    border-color: orange;
-    color: orange;
-}
-
-.btn-warning:active,
-.btn-warning:hover {
-    background-color: darkorange;
-    color: darkorange;
-}
-
-.btn-danger {
-    border-color: red;
-    color: red;
-}
-
-.btn-danger:active,
-.btn-danger:hover {
-    background-color: darkred;
-    color: darkred;
-}
-
-.btn-success {
-    border-color: green;
-    color: green;
-}
-
-.btn-success:active,
-.btn-success:hover {
-    background-color: darkgreen;
-    color: darkgreen;
-}
-
-.btn-secondary {
-    margin-top: 25px;
-    background-color: #445361;
-    border: 1px transparent;
-    border-radius: 20px;
-}
-
-.btn-secondary:active,
-.btn-secondary:hover {
-    background-color: #0d1013;
 }
 
 /* contact page styling */
@@ -514,7 +402,7 @@ footer {
 /* media queries for math page*/
 @media (max-width: 320px) {
     .game-area {
-        height: 80vh;
+        height: 50vh;
     }
 
     .controls-area {

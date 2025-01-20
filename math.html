@@ -45,50 +45,33 @@
         </nav>
     </header>
 
-    
-        <section>
-            <div id="hero-math">
-                <h1 id="hero-math-covertext">Math is everywhere!</h1>
-            </div>
-        </section>
 
-        
-            <div class="math-container">
-                <h2 class="math-heading">
-                    <img class="math-logo" src="assets/images/math-logo.png" alt="math-logo"> Let’s go!
-                </h2>
-                <div class="game-area">
-                    <div class="controls-area">
-                        <button data-type="addition" class="btn btn-lg btn-success">
-                            <i class="fa-solid fa-plus"></i>
-                        </button>
-                        <button data-type="subtract" class="btn btn-lg btn-primary">
-                            <i class="fa-solid fa-minus"></i>
-                        </button>
-                        <button data-type="multiply" class="btn btn-lg btn-warning">
-                            <i class="fa-solid fa-xmark"></i>
-                        </button>
-                        <button data-type="division" class="btn btn-lg btn-danger">
-                            <i class="fa-solid fa-divide"></i>
-                        </button>
-                    </div>
-                    
-                    <div class="question-area">
-                        <span id="operand1">0</span>
-                        <span id="operator">x</span>
-                        <span id="operand2">0</span>
-                        <span>=</span>
-                        <p class="answer-message">Enter Answer:</p>
-                        <input id="answer-box" type="number">
-                    </div>
-                    <button data-type="submit" class="btn btn-secondary">Submit Answer</button>
-                </div>
-                <div class="score-area">
-                    <p class="scores">Correct! <span id="score">0</span></p>
-                    <p class="scores">Oh no, try again! <span id="incorrect">0</span></p>
+    <section>
+        <div id="hero-math">
+            <h1 id="hero-math-covertext">Math is everywhere!</h1>
+        </div>
+    </section>
 
+    <!-- game  nr2 -->
+    <section>
+        <div id="quiz2-body">
+            <div id="math-container2">
+                <h2>Test your math skills</h2>
+                <div id="math-questions" class="hide">
+                    <div id="questions">Question</div>
+                    <div id="answer-btn" class="btn-grid">
+                        <button class="btn-g2">Answer 1</button>
+                        <button class="btn-g2">Answer 2</button>
+                        <button class="btn-g2">Answer 3</button>
+                        <button class="btn-g2">Answer 4</button>
+                    </div>
                 </div>
+                <div class="controls"></div>
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
             </div>
+        </div>
+    </section>
 
 
     <!-- footer -->
