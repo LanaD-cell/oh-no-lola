@@ -300,71 +300,62 @@ main {
 .wrapper {
     height: 400px;
     width: 400px;
-    padding: 10px;
+    padding: 25px;
     background-color: lightgrey;
     border-radius: 5px;
 }
 
 .cards,
-.flipcard,
+.card-game,
 .view {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .cards {
-    height: 80%;
+    height: 100%;
     width: 100%;
-    padding: 0;
+    padding: 10px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.cards .flipcard {
+.cards .card-game {
     cursor: pointer;
-    position: relativa;
+    position: relative;
     perspective: 800px;
     transform-style: preserve-3d;
     height: calc(100% / 4 - 10px);
     width: calc(100% / 4 - 10px);
 }
 
-.cards .flipcard .view {
+.cards .card-game .view {
     width: 100%;
     height: 100%;
-    user-select: none;
-    pointer-events: none;
     position: absolute;
     background-color: white;
-    border-radius: 7px;
-    backface-visibility: hidden;
-    transition: transform 0.25s linear;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
 }
 
-.flipcard .front-view img {
+.card-game .front-view span {
+    font-size: 40px;
+    color: #d99007;
+}
+
+.card-game .back-view {
+   transform: rotateY(-180deg);
+}
+
+.card-game .back-view img {
     max-width: 45px;
 }
 
-.flipcard .back-view {
-    transform: rotateY(-180deg);
+.card-game:hover .back-view{
+transform: rotateY(0);
 }
-
-.flipcard .back-view img {
-    max-width: 45px;
-
-}
-
-.flipcard.flip .front-view {
-    transform: rotateY(180deg);
-}
-
-.flipcard.flip .back-view {
-    transform: rotateY(0);
-}
-
 /* contact page styling */
 
 #hero-contact {
@@ -560,7 +551,7 @@ footer {
 
     }
 
-      }
+}
 
 
 /* Large devices (laptops and desktops, 992px and up) */
