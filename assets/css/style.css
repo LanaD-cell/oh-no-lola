@@ -52,7 +52,7 @@ h2 {
 
 em {
     font-family: "Courgette", sans-serif;
-  
+
 }
 
 p {
@@ -291,112 +291,84 @@ main {
 #cardbody {
     display: flex;
     align-items: center;
+    font-family: "Poppins", sans-serif;
     justify-content: center;
     min-height: 50vh;
-    background-color: #6563ff;
-}
-.cardcontainer {
-    align-content: center;
+    background-color: #589dd9;
 }
 
-.wrapper{
-    border-radius: 4px;
-    background: #F8F8F8;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  }
-  .cards, .flipcard, .view{
+.wrapper {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.cards,
+.flipcard,
+.view {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .cards{
-    height: 400px;
-    width: 400px;
+
+}
+
+.cards {
+    height: 80%;
+    width: 100%;
+    padding: 0;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0;
-    padding: 2px;
-  }
-  .cards .flipcard{
+}
+
+.cards .flipcard {
     cursor: pointer;
-    list-style: none;
-    user-select: none;
-    position: relative;
-    perspective: 1000px;
+    position: relativa;
+    perspective: 800px;
     transform-style: preserve-3d;
     height: calc(100% / 4 - 10px);
     width: calc(100% / 4 - 10px);
-  }
-  .flipcard.shake{
-    animation: shake 0.35s ease-in-out;
-  }
-  @keyframes shake {
-    0%, 100%{
-      transform: translateX(0);
-    }
-    20%{
-      transform: translateX(-13px);
-    }
-    40%{
-      transform: translateX(13px);
-    }
-    60%{
-      transform: translateX(-8px);
-    }
-    80%{
-      transform: translateX(8px);
-    }
-  }
-  .flipcard .view{
+}
+
+.flipcard .shake {
+    
+}
+
+.cards .flipcard .view {
     width: 100%;
     height: 100%;
-    position: absolute;
-    border-radius: 7px;
-    background: #fff;
+    user-select: none;
     pointer-events: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 7px;
     backface-visibility: hidden;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     transition: transform 0.25s linear;
-  }
-  .flipcard .front-view img{
-    width: 19px;
-  }
-  .flipcard .back-view img{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flipcard .front-view img {
     max-width: 45px;
-  }
-  .flipcard .back-view{
+}
+
+.flipcard .back-view {
     transform: rotateY(-180deg);
-  }
-  .flipcard.flip .back-view{
-    transform: rotateY(0);
-  }
-  .flipcard.flip .front-view{
+}
+
+.flipcard .back-view img {
+    max-width: 45px;
+
+}
+
+.flipcard.flip .front-view {
     transform: rotateY(180deg);
-  }
-  @media screen and (max-width: 700px) {
-    .flipcards{
-      height: 350px;
-      width: 350px;
-    }
-    .flipcard .front-view img{
-      width: 17px;
-    }
-    .flipcard .back-view img{
-      max-width: 40px;
-    }
-  }
-  @media screen and (max-width: 530px) {
-    .cards{
-      height: 300px;
-      width: 300px;
-    }
-    .flipcard .front-view img{
-      width: 15px;
-    }
-    .flipcard .back-view img{
-      max-width: 35px;
-    }
-  }
+}
+
+.flipcard.flip .back-view {
+    transform: rotateY(0);
+}
+
 /* contact page styling */
 
 #hero-contact {
@@ -417,10 +389,6 @@ main {
     min-height: 100px;
     padding: 15px;
 }
-
-
-
-
 
 /* footer */
 footer {
@@ -444,6 +412,9 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* flip function */
+
 
 /* media query for math page: mobile screens max 320px (320px) */
 
@@ -593,10 +564,13 @@ footer {
 
     }
 
+      }
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
+
+}
