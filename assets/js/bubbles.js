@@ -1,6 +1,6 @@
 const cards = document.querySelectorAll(".card-game");
 
-let matchedCard = 0; //scoring system
+let matchedCard = 0; // counting cards to shuffle
 let cardOne, cardTwo;
 let disableDeck = false;
 
@@ -55,6 +55,7 @@ setTimeout(() => {
 function shuffleCard() {
     matchedCard = 0;
     cardOne = cardTwo = "";
+    disableDeck = false;
     let arr = [1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8,];
     arr.sort(() => Math.random() > 0.5 ? 1 : -1); //sort array randomly
    
@@ -67,8 +68,9 @@ function shuffleCard() {
     });
 }
 
+shuffleCard();
+
 // add click efect to card
 cards.forEach(card => {
-    card.classList.add("flip");
     card.addEventListener("click", flipCard);
 });
