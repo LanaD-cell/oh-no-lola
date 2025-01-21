@@ -1,21 +1,21 @@
 const cards = document.querySelectorAll(".flipcard");
 
-let cardOne, cardTwo;
+let flipcardOne, flipcardTwo;
 
 // define flipCard function
 function flipCard(e) {
     let clickedCard = e.target; // getting clicked card
     clickedCard.classList.add("flip");
-    if (clickedCard !== cardOne) {
-        if (!cardOne) {
+    if (clickedCard !== flipcardOne) {
+        if (!flipcardOne) {
             //cardOne value returned
-            return cardOne = clickedCard;
+            return flipcardOne = clickedCard;
         }
-        cardTwo = clickedCard;
+        flipcardTwo = clickedCard;
 
-        let cardOneImg = cardOne.querySelector("img").src,
-            cardTwoImg = cardTwo.querySelector("img").src;
-        matchCards(cardOneImg, cardTwoImg);
+        let flipcardOneImg = flipcardOne.querySelector("img").src,
+            flipcardTwoImg = flipcardTwo.querySelector("img").src;
+        matchCards(flipcardOneImg, flipcardTwoImg);
     }
 }
 
@@ -23,9 +23,6 @@ function matchCards(img1, img2) {
     if (img1 === img2) { // the two img matched
         return console.log("Card matched");
     }
-    
-    cardOne.classList.add("shake");
-    cardTwo.classList.add("shake");
 }
 
 // add click efect to card
