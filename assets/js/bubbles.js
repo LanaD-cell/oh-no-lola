@@ -1,18 +1,20 @@
 const cards = document.querySelectorAll(".card-game");
 
+let matchedCard = 0; //scoring system
 let cardOne, cardTwo;
+let disableDeck = false;
 
 // define flipCard function
 function flipCard(e) {
     let clickedCard = e.target; // getting clicked card
     clickedCard.classList.add("flip");
-    if (clickedCard !== cardOne) {
+    if (clickedCard !== cardOne && !disableDeck) {
         if (!cardOne) {
             //cardOne value returned
             return cardOne = clickedCard;
         }
         cardTwo = clickedCard;
-
+        disableDeck = true;
         let cardOneImg = cardOne.querySelector(".card-game img").src,
             cardTwoImg = cardTwo.querySelector(".card-game img").src;
         matchCards(cardOneImg, cardTwoImg);
@@ -21,15 +23,42 @@ function flipCard(e) {
 
 function matchCards(img1, img2) {
     if (img1 === img2) { // the two img matched
+        matchedCard++; //matched value +1
+        // matched value is 8, the all cards matched (8*2 = 16)
+        if (matchedCard == 8) {
+            shuffleCard();
+        }
         cardOne.removeEventListener("click", flipCard);
         cardTwo.removeEventListener("click", flipCard);
         cardOne = cardTwo = ""; //card values to blank
-        return;
+        return disableDeck = false;
     }
 
+    setTimeout(() => {
+        // when 2 cards not matched
+        cardOne.classList.add("shake");
+        cardTwo.classList.add("shake");
+    }, 400); // add shake class to both cards after 400ms
 
-    // add click efect to card
+    setTimeout(() => {
+        // when 2 cards not matched
+        cardOne.classList.remove("shake", "flip");
+        cardTwo.classList.remove("shake", "flip");
+        cardOne = cardTwo = ""; //reser both values to blank
+        disableDeck = false;
+    }, 1200); // remove shake and flip class to both cards after 1.2s
+}
+
+
+function shuffleCard() {
+    matchedCard = 0; 
+    cardOne = cardTwo ? "";
     cards.forEach(card => {
+        card.classList.remove("flip";)
         card.addEventListener("click", flipCard);
     });
-    
+}
+// add click efect to card
+cards.forEach(card => {
+    card.addEventListener("click", flipCard);
+});
