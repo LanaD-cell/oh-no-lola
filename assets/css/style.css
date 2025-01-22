@@ -265,7 +265,7 @@ main {
 }
 
 #toTopBtn {
-    
+
     color: #3a3a3a;
     font-family: "Poppins";
 
@@ -288,11 +288,6 @@ main {
     padding-top: 50px;
 }
 
-/* mcq bubbles */
-
-
-
-
 /* flip game */
 
 #cardbody {
@@ -300,7 +295,7 @@ main {
     align-items: center;
     font-family: "Poppins", sans-serif;
     justify-content: center;
-    
+
 }
 
 .wrapper {
@@ -426,6 +421,24 @@ main {
     width: 100%;
     min-height: 100px;
     padding: 15px;
+}
+
+/* form styling */
+
+#contact-form {
+    max-width: 90%;
+    max-height: fit-content;
+    margin: 10px;
+    padding: 15px;
+    border: 3px solid rgba(217, 144, 7, 0.4);
+}
+
+input, textarea {
+    margin: 10px;
+}
+
+inpt[type=text], textarea, input[type=email]  {
+    width: 75%;
 }
 
 /* footer */
