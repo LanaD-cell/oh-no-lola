@@ -54,12 +54,12 @@
         <!-- contact form with ficticious details-->
          <div id="contact-form">
         <h3>Send us a message!</h3>
-        <form action="404.html" method="post">
+        <form action="404.html" method="get">
             Name: <br>
-            <input type="text" name="name"> <br>
+            <input type="text" name="name" required> <br>
 
             Email: <br>
-            <input type="email" name="email"> <br>
+            <input type="email" name="email" required> <br>
 
             Message: <br>
             <textarea placeholder="Write us a note"></textarea><br>
@@ -73,7 +73,7 @@
             <select>
                 <option default>--Select your answer--</option>
                 <option value="yes">Yes</option>
-                <option value="no">No</option> <br>
+                <option value="no">No</option>
             </select><br>
 <br>
             <input type="submit" value="Send"><br>
