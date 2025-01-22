@@ -26,7 +26,6 @@ function flipCard(e) {
 function matchCards(img1, img2) {
     if (img1 === img2) { // the two img matched
         matchedCard++; //matched value +1
-        updateScore(10); // Increment score by 10 for a match
         // matched value is 8, the all cards matched (8*2 = 16)
         if (matchedCard == 8) {
             setTimeout(() => {
@@ -53,8 +52,6 @@ function matchCards(img1, img2) {
         cardOne = cardTwo = ""; //reset both values to blank
         disableDeck = false;
     }, 1200); // remove shake and flip class to both cards after 1.2s
-
-    resetScore(); // Reset score when game ends
 }
 
 
@@ -83,22 +80,3 @@ function shuffleCard() {
 // take user back to top
 const toTop = () => window.scrollTo({top:0, behaviour: 'smooth'});
 
-// quiz for each section
-
-function checkAnswer(quizId, correctAnswer) {
-    const selectedOption = document.querySelector(`#${quizId} input[name="${quizId}"]:checked`);
-    const resultElement = document.getElementById(`result${quizId.slice(-1)}`);
-    if (selectedOption) {
-      const selectedValue = parseInt(selectedOption.value);
-      if (selectedValue === correctAnswer) {
-        resultElement.textContent = "Correct! Great job!";
-        resultElement.className = "result correct";
-      } else {
-        resultElement.textContent = "Wrong answer. Try again!";
-        resultElement.className = "result wrong";
-      }
-    } else {
-      resultElement.textContent = "Please select an answer.";
-      resultElement.className = "result wrong";
-    }
-  }
