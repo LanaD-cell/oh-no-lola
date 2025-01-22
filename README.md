@@ -199,12 +199,20 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 
 #### Index Page
 
+<div align="center">
+  <img src="assets/documentation/mockup-hp.png" style="background-color: black" alt="homepage">
+</div>
+
 - This page offers a beautiful introduction, with a small about section.
 - Two links lead the user to the respective reading pages.
 - The header offers two more links, to the Home page and to the contact page.
 - A small logo is also placed in the left top corner that links to the homepage.
   
 #### Lola Page
+
+<div align="center">
+  <img src="assets/documentation/mockup-lola-page.png" style="background-color: black" alt="lola page">
+</div>
 
 - The story of little Lolas way to school is broken up into sections.
 - Each section contains a image, text and a small MCQ (js funcionality).
@@ -213,16 +221,28 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 
 #### Bublles Page
 
+<div align="center">
+  <img src="assets/documentation/mockup-bubbles-page.png" style="background-color: black" alt="bubbles page">
+</div>
+
 - The story of Bubbles containes a flip card game and is broken up into sections.
 - Each section contains a image and text.
 - A button is place at the end of the page above the footer, to return the user to the top (js funcionality).
 
 #### 404 Page
 
+<div align="center">
+  <img src="assets/documentation/mockup-404-page.png" style="background-color: black" alt="404 page">
+</div>
+
 - The page contains a hero image and a message.
 - A linked is placed that opens the homepage.
 - 
 #### Contact Page
+
+<div align="center">
+  <img src="assets/documentation/mockup-contact-page.png" style="background-color: black" alt="homepage">
+</div>
 
 - The page contains a hero image and a contact form.
 - Clicking the send button opens the 404 page.
