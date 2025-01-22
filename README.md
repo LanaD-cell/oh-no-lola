@@ -44,8 +44,9 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
     <summary><a href="#page-elements">Page Elements</a></summary>
 
     - [Index Page](#index-page)
-    - [English Page](#english-page)
-    - [Math Page](#math-page)
+    - [Lola Page](#lola-page)
+    - [Bubbles Page](#lola-page)
+    - [404 Page](#404-page)
     - [Contact Page](#contact-page)
     </details></li>
 
@@ -54,6 +55,7 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 
     - [Multiple choice questionare](#multiple-choice-questionare)
     - [Contact Form](#contact-form)
+    - [Flip card game](#flip-card-game)
     </details></li>
 
     <li><details>
@@ -127,14 +129,13 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 # UX
 ## Goals
 ### Visitor Goals
-
-
-
+- The website is built for young children and their parents to practice their reading skills and reading comprehension.
+- A card flip game is addeed to the secon story to give the children a break from learning.
 
 ### Business Goals
 
-
-
+- The end goal would be to create a rounded portfolio of educational products for all age groups.
+- Possible expansion to online lerrning and sections for collaborators and educators to offer their services.
 
 ## Visual Design
 ### Wireframes
@@ -144,19 +145,21 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 
 - Wireframes were created on [Balsamiq](https://balsamiq.com/)
 - Initially the site was just meant to be a one page scroller, that evolved into a multipage site. 
-- The site contains 3 pages 
+- The site contains 5 pages 
    - Homepage
-   - English reading
-   - Maths game
+   - English reading - Lola
+   - English reading - Bubbles
+   - Contact page
+   - 404 page
   
-
 
 ### Fonts
 <div align="center">
-  <img src="#" alt="Fonts">
+  <img src="../oh-no-lola/assets/documentation/fonts.png" alt="Fonts">
 </div>
 
-
+- "Poppins" is easy to read.
+- "Courgette" offers a bit of playfulness while maintaining readability.
 
 ### Icons
 <div align="center">
@@ -197,19 +200,32 @@ Each section of the story is followed by a quick quiz to test comprhension. It w
 #### Index Page
 
 - This page offers a beautiful introduction, with a small about section.
-- Two links lead the user to the respective pages, English reading and Math.
-- 
-#### English Page
+- Two links lead the user to the respective reading pages.
+- The header offers two more links, to the Home page and to the contact page.
+- A small logo is also placed in the left top corner that links to the homepage.
+  
+#### Lola Page
 
 - The story of little Lolas way to school is broken up into sections.
 - Each section contains a image, text and a small MCQ (js funcionality).
 - At the end of the page, we find a bit of fun with a confetti button (js funcionality).
 - A button is place at the end of the page above the footer, to return the user to the top (js funcionality).
-#### Math Page
 
+#### Bublles Page
 
+- The story of Bubbles containes a flip card game and is broken up into sections.
+- Each section contains a image and text.
+- A button is place at the end of the page above the footer, to return the user to the top (js funcionality).
+
+#### 404 Page
+
+- The page contains a hero image and a message.
+- A linked is placed that opens the homepage.
+- 
 #### Contact Page
 
+- The page contains a hero image and a contact form.
+- Clicking the send button opens the 404 page.
 
 #### Navbar
 <div align="center">
