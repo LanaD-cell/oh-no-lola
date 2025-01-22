@@ -56,8 +56,8 @@ em {
 }
 
 p {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: #3a3a3a;
     padding: 10px;
     text-align: left;
@@ -192,6 +192,7 @@ main {
 }
 
 /* lola storyline section quiz*/
+
 .quiz-section {
     padding: 10px;
     border-radius: 8px;
@@ -264,7 +265,9 @@ main {
 }
 
 #toTopBtn {
-    text-align: center;
+    
+    color: #3a3a3a;
+    font-family: "Poppins";
 
 }
 
@@ -285,6 +288,10 @@ main {
     padding-top: 50px;
 }
 
+/* mcq bubbles */
+
+
+
 
 /* flip game */
 
@@ -293,8 +300,7 @@ main {
     align-items: center;
     font-family: "Poppins", sans-serif;
     justify-content: center;
-    min-height: 50vh;
-    background-color: #589dd9;
+    
 }
 
 .wrapper {
@@ -317,7 +323,7 @@ main {
 .cards {
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -400,6 +406,7 @@ main {
     transform: rotateY(0);
 }
 
+
 /* contact page styling */
 
 #hero-contact {
@@ -444,7 +451,7 @@ footer {
     color: #3a3a3a;
 }
 
-/* flip function */
+
 
 
 /* media query for math page: mobile screens max 320px (320px) */
@@ -477,7 +484,6 @@ footer {
 
     /* media queries for english page*/
     .quiz-section {
-        margin-left: 10px;
         padding: 5px;
         border-radius: 8px;
         background-color: #589dd9;
