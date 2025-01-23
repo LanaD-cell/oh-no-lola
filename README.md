@@ -159,7 +159,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 ### Fonts
 
 <div align="center">
-  <img src="../oh-no-lola/assets/documentation/fonts.png" alt="Fonts">
+  <img src="/assets/documentation/fonts.png" alt="Fonts">
 </div>
 
 - "Poppins" is easy to read.
