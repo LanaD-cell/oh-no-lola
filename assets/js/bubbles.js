@@ -114,5 +114,3 @@ button.addEventListener('click', () => {
   jsConfetti.addConfetti()
 });
 
-// take user back to top
-const toTop = () => window.scrollTo({top:0, behaviour: 'smooth'});

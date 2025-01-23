@@ -253,6 +253,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 
 - The page contains a hero image and a contact form.
 - Clicking the send button opens the 404 page.
+- The input fields for Name and Email have validation.
 
 #### Navbar
 
@@ -343,16 +344,28 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 </div>
 - Each javascript file was tested on the site for errors and functionality using the console and with [JSHint](https://jshint.com/).
 
+- The deployed site was run through [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview).
+  <div align="center">
+  <img src="assets/documentation/lighthouse-desktop.png" alt="css">
+</div>
+<div align="center">
+  <img src="assets/documentation/lighthouse-mobile.png" alt="css">
+</div>
+  
 
 
 ### General Testing
 
 - I have sent the deplyment link to various friend and family, especially ones with children to test usability and UI.
-- The site has been validated and put through the W3Validator and [Google Lighthouse]
+- Use tools like Google Lighthouse or W3Validator to identify areas where performance can be optimized.
+- Test the website across multiple mobile browsers (e.g., Chrome, Safari, Firefox) to ensure consistent performance.
 
 ### Mobile Testing
 
 - I have sent the deplyment link to various friend and family, especially ones with children to test usability and UI.
+- Check if the website layout adapts smoothly to various screen sizes and orientations (portrait and landscape).
+- Ensure that elements like buttons, images, and text are appropriately resized and aligned for different resolutions.
+- 
 
 ### Desktop Testing
 
@@ -362,6 +375,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 - Initially I wanted to add a crossword puzzle for the page, but the scope was way too big and time consuming to add. 
 - I had a major problem with javascript coding affecting other elements.
   - I created a javascript page dedicated to each page.
+- The card game gave me some problems with the eventListeners. My mentor suggested that I comment out all and test step by step, whoch helped me identify the problem. 
 
 ----
 
