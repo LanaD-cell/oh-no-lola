@@ -144,9 +144,14 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 ### Wireframes
 
 <div align="center">
-  <img src="assets/documentation/wireframe - oh-no-Lola.png" alt="Wireframes">
+  <img src="assets/documentation/wireframe-1.png" alt="Wireframes">
 </div>
-
+<div align="center">
+  <img src="assets/documentation/wireframe-2.png" alt="Wireframes">
+</div>
+<div align="center">
+  <img src="assets/documentation/wireframe-3.png" alt="Wireframes">
+</div>
 - Wireframes were created on [Balsamiq](https://balsamiq.com/)
 - Initially the site was just meant to be a one page scroller, that evolved into a multipage site.
 - The site contains 5 pages
