@@ -319,7 +319,20 @@
                     </ul>
                 </div>
             </div>
-    
+            <!-- Congratulations with confetti -->
+            <div class="card text-center">
+                <div class="card-body">
+                    <h3 class="card-title">HOOOORAY!!</h3>
+                    <h4 class="card-text">You finished the story, good job!</h4>
+                    <button id="con-button" class="btn btn-warning">*click me* Let’s
+                        celebrate!!</button>
+                    <canvas id="confetti"></canvas>
+                </div>
+            </div>
+            <!-- retunr to top button -->
+            <div id="toTopBtn">
+                <button onclick="toTop()">Back to top</button>
+            </div>
             <!-- retunr to top button -->
             <button id="toTopBtn" onclick="toTop()">Back to top</button>
 
@@ -349,6 +362,8 @@
     </script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/5307206c46.js" crossorigin="anonymous"></script>
+    <!-- confetti npm script-->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 
 </body>
 

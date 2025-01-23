@@ -103,8 +103,16 @@ document.querySelectorAll(".card-game").forEach(card => {
     card.addEventListener("click", flipCard);
 });
 
-// take user back to top
-const toTop = () => window.scrollTo({
-    top: 0,
-    behaviour: 'smooth'
+
+// confetti
+const button = document.querySelector('#con-button');
+const canvas = document.querySelector('#confetti');
+
+const jsConfetti = new JSConfetti()
+
+button.addEventListener('click', () => {
+  jsConfetti.addConfetti()
 });
+
+// take user back to top
+const toTop = () => window.scrollTo({top:0, behaviour: 'smooth'});
