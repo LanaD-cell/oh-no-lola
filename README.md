@@ -13,116 +13,46 @@ The website offers quick quiz to test comprhension and some fun with a flip game
 I really hope you enjoy the site, not only for the visually appealing elements, but also the wonderful characters it brings to life.
 
 ## Table of Contents
-* [User Design Experience (UX)](#User-Design-Experience)
-* [Features](#features)
-* [Technologies Applied](#Technologies-Applied)
-* [Testing](#Testing)
-* [Deployment](#Deployment)
-* [Credits](#Credits)
-1.  <details>
-    * [User Design Experience (UX)](#User-Design-Experience)
 
-        - [Visitor Goals](#visitor-goals)
-        - [Business Goals](#business-goals)
-        </details></li>
 
-        <li><details>
-        <summary><a href="#visual-design">Visual Design</a></summary>
-
-        - [Wireframes](#wireframes)
-        - [Fonts](#fonts)
-        - [Icons](#icons)
-        - [Colors](#colors)
-        - [Images](#images)
-        </details></li>
-        </ul>
-
-    </details>
-
-2.  <details>
-      * [Features](#features)
-
-        <ul>
-        <li><details>
-        <summary><a href="#page-elements">Page Elements</a></summary>
-
-        - [Index Page](#index-page)
-        - [Lola Page](#lola-page)
-        - [Bubbles Page](#lola-page)
-        - [404 Page](#404-page)
-        - [Contact Page](#contact-page)
-        </details></li>
-
-        <li><details>
-        <summary><a href="#additional-features">Additional Features</a></summary>
-
-        - [Multiple choice questionare](#multiple-choice-questionare)
-        - [Contact Form](#contact-form)
-        - [Flip card game](#flip-card-game)
-        </details></li>
-
-    </details>
-
-3.  <details>
-        <summary><a href="#technologies-used">Technologies Used</a></summary>
-
-        - [Languages](#languages)
-        - [Frameworks](#frameworks)
-        - [Libraries](#libraries)
-        - [APIs](#apis)
-        - [Platforms](#platforms)
-        - [Other Tools](#other-tools)
-
-    </details>
-
-4.  <details>
-        <summary><a href="#testing">Testing</a></summary>
-
-        <ul>
-        <li><details>
-        <summary><a href="#methods">Methods</a></summary>
-
-        - [Validation](#validation)
-        - [General Testing](#general-testing)
-        - [Mobile Testing](#mobile-testing)
-        - [Desktop Testing](#desktop-testing)
-        </details></li>
-
-        <li><details>
-        <summary><a href="#bugs">Bugs</a></summary>
-
-        - [Known Bugs and fixes](#known-bugs-and-fixes)
-        </details></li>
-        </ul>
-
-    </details>
-
-5.  <details>
-        <summary><a href="#deployment">Deployment</a></summary>
-
-        <ul>
-        <li><details>
-        <summary><a href="#local-deployment">Local Deployment</a></summary>
-
-        - [Local Preparation](#local-preparation)
-        </details></li>
-
-        <li><details>
-        <summary><a href="#github-deployment">Github Deployment</a></summary>
-
-        - [Instructions](#instructions)
-        </details></li>
-        </ul>
-
-    </details>
-
-6.  <details>
-        <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
-
-        - [Content](#content)
-        - [Contact](#contact)
-
-    </details>
+- [UX](#ux)
+  - [Goals](#goals)
+    - [Visitor Goals](#visitor-goals)
+    - [Business Goals](#business-goals)
+  - [Visual Design](#visual-design)
+    - [Wireframes](#wireframes)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colors](#colors)
+    - [Images](#images)
+- [Features](#features)
+    - [Page Elements](#page-elements)
+      - [Index Page](#index-page)
+      - [Lola Page](#lola-page)
+      - [Bublles Page](#bublles-page)
+      - [404 Page](#404-page)
+      - [Contact Page](#contact-page)
+      - [Navbar](#navbar)
+      - [Footer](#footer)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Frameworks](#frameworks)
+  - [Libraries](#libraries)
+  - [Platforms](#platforms)
+  - [Other Tools](#other-tools)
+- [Testing](#testing)
+  - [Methods](#methods)
+    - [Validation](#validation)
+    - [General Testing](#general-testing)
+    - [Mobile Testing](#mobile-testing)
+    - [Desktop Testing](#desktop-testing)
+  - [Bugs](#bugs)
+    - [Known Bugs and fixes](#known-bugs-and-fixes)
+- [Github Deployment](#github-deployment)
+    - [Instructions](#instructions)
+  - [Credits and Contact](#credits-and-contact)
+    - [Content](#content)
+    - [Contact](#contact)
 
 ---
 
