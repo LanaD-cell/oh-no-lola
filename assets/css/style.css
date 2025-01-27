@@ -173,6 +173,7 @@ main {
     height: 700px;
     min-width: 100%;
     background: url(../images/new-hero.jpeg) no-repeat center center/cover;
+  
 }
 
 
@@ -182,6 +183,7 @@ main {
     font-size: 50px;
     margin-top: 20px;
     padding-top: 50px;
+    background-color: rgba(217, 144, 7, .4);
 }
 
 #intro {
