@@ -32,6 +32,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
       - [Bublles Page](#bublles-page)
       - [404 Page](#404-page)
       - [Contact Page](#contact-page)
+      - [Thank you Page](#thank-you-page)
       - [Navbar](#navbar)
       - [Footer](#footer)
 - [Technologies Used](#technologies-used)
@@ -45,7 +46,6 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
     - [Validation](#validation)
     - [General Testing](#general-testing)
     - [Mobile Testing](#mobile-testing)
-    - [Desktop Testing](#desktop-testing)
   - [Bugs](#bugs)
     - [Known Bugs and fixes](#known-bugs-and-fixes)
 - [Github Deployment](#github-deployment)
@@ -184,12 +184,22 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 #### Contact Page
 
 <div align="center">
-  <img src="assets/documentation/mockup-contact-page.png" style="background-color: black" alt="homepage">
+  <img src="assets/documentation/mockup-contact-page.png" style="background-color: black" alt="contact">
 </div>
 
 - The page contains a hero image and a contact form.
 - Clicking the send button opens the 404 page.
 - The input fields for Name and Email have validation.
+
+#### Thank you Page
+
+<div align="center">
+  <img src="assets/documentation/mockup-thank-you-page.png" style="background-color: black" alt="thank you">
+</div>
+
+- The page contains a hero image and a contact form.
+- Clicking the send button opens the home page.
+
 
 #### Navbar
 
@@ -323,7 +333,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 - Ensure that elements like buttons, images, and text are appropriately resized and aligned for different resolutions.
 - 
 
-### Desktop Testing
+
 
 ## Bugs
 
