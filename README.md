@@ -13,13 +13,14 @@ The website offers quick quiz to test comprhension and some fun with a flip game
 I really hope you enjoy the site, not only for the visually appealing elements, but also the wonderful characters it brings to life.
 
 ## Table of Contents
-
-1.  <details open>
-        <summary><a href="#user-design">User Design</a></summary>
-
-        <ul>
-        <li><details>
-        <summary><a href="#goals">Goals</a></summary>
+* [User Design Experience (UX)](#User-Design-Experience)
+* [Features](#features)
+* [Technologies Applied](#Technologies-Applied)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
+1.  <details>
+    * [User Design Experience (UX)](#User-Design-Experience)
 
         - [Visitor Goals](#visitor-goals)
         - [Business Goals](#business-goals)
@@ -38,8 +39,8 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 
     </details>
 
-1.  <details open>
-        <summary><a href="#features">Features</a></summary>
+2.  <details>
+      * [Features](#features)
 
         <ul>
         <li><details>
@@ -62,7 +63,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 
     </details>
 
-2.  <details open>
+3.  <details>
         <summary><a href="#technologies-used">Technologies Used</a></summary>
 
         - [Languages](#languages)
@@ -74,7 +75,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 
     </details>
 
-3.  <details open>
+4.  <details>
         <summary><a href="#testing">Testing</a></summary>
 
         <ul>
@@ -96,7 +97,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 
     </details>
 
-4.  <details open>
+5.  <details>
         <summary><a href="#deployment">Deployment</a></summary>
 
         <ul>
@@ -115,7 +116,7 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
 
     </details>
 
-5.  <details open>
+6.  <details>
         <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
 
         - [Content](#content)
