@@ -354,7 +354,27 @@ I really hope you enjoy the site, not only for the visually appealing elements, 
   <img src="assets/documentation/lighthouse-desktop.png" alt="css">
 </div>
 <div align="center">
-  <img src="assets/documentation/lighthouse-mobile.png" alt="css">
+  <img src="assets/documentation/lighthouse-lola.png" alt="css">
+</div>
+  <div align="center">
+  <img src="assets/documentation/lighthouse-lola-desktop.png" alt="css">
+</div>
+<div align="center">
+  <img src="assets/documentation/lighthouse-lola-mobile.png" alt="css">
+</div>
+  <div align="center">
+  <img src="assets/documentation/lighthouse-bubbles-desk.png" alt="css">
+</div>
+<div align="center">
+  <img src="assets/documentation/lighthouse-bubbles-mobile.png" alt="css">
+</div>
+
+- The deployed site was run through [JsHint](https://jshint.com/).
+  <div align="center">
+  <img src="assets/documentation/jshint-bubbles.png" alt="css">
+</div>
+<div align="center">
+  <img src="assets/documentation/jshint-quiz.png" alt="css">
 </div>
   
 
